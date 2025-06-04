@@ -1,6 +1,7 @@
 import openai
 from openai import OpenAI
 
+
 class ChatGptService:
     client: OpenAI = None
     message_list: list = None
