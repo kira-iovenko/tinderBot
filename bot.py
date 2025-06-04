@@ -65,7 +65,6 @@ async def date_button(update, context):
     prompt = load_prompt(query)
     chatgpt.set_prompt(prompt)
 
-
 async def message(update, context):
     dialog.mode = "message"
     text = load_message("message")
