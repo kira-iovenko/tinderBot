@@ -75,7 +75,6 @@ async def message(update, context):
     })
     dialog.list.clear()
 
-
 async def message_button(update, context):
     query = update.callback_query.data
     await update.callback_query.answer()
